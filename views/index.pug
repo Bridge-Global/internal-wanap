@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+
+  div(class='wrapper ')
+    div(class='full-blur')
+      div(class='central-box')
+        form(name="Login")
+          h4(class="message-error")
+          h2(class="log-form-name") Login Your Account
+          input(type="text" title="Email" class="login-input" placeholder="Email" name="email" required)
+          input(type="password" title="Password" class="login-input" placeholder="Password" name="password" required)
+          input(type="button" onClick="login();" title="Login" class="login-button" value="Submit")
+          a(name="" href="register")
+            input(type="button" title="Sign Up" class="login-button-signup" value="SignUp?")

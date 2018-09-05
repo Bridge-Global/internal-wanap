@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+  div(class='wrapper ')
+    div(class='full-blur')
+      form(name="register" action="postnew" method="post")
+        div(class='central-box-register')
+          h4(class="message-success")
+          h4(class="message-error")
+          h2(class="log-form-name") Create New Account
+          input(type="text" title="User Name" class="login-input margin-top-none" placeholder="Name" name="name")
+          input(type="text" title="Company" class="login-input" placeholder="Company" name="company")
+          input(type="text" title="Mobile" class="login-input" placeholder="Mobile" name="mobile")
+          input(type="text" title="Email" class="login-input" placeholder="Email" name="email")
+          input(type="password" title="Password" class="login-input" placeholder="Password" name="password")
+          input(type="button" title="Sign Up" class="login-button" value="Submit" onClick="newRegister()")
+          a(name="Go Back" href="/")
+            input(type="button" title="Forgot Password" class="login-button-fogrot" value="<< Login")
