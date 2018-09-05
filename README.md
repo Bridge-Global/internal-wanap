@@ -1,7 +1,7 @@
 # internal-wanap
 internal wanap
 
-INSTALLETION NOTE
+INSTALLATION NOTE
 --------------------
 Step 1:-  Mysql Database installation : install data base "node_module" placed in the folder 'DataBase'.
 
