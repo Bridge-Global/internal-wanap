@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 05, 2018 at 08:56 AM
+-- Generation Time: Sep 05, 2018 at 11:33 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.5.38
 
@@ -37,13 +37,6 @@ CREATE TABLE `users` (
   `createdAt` datetime NOT NULL,
   `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `mobile`, `email`, `user_name`, `company`, `password`, `virtual_instance`, `createdAt`, `updatedAt`) VALUES
-(3, '9447992953', 'sanjay@bridge-global.com', 'Sanjay', 'test', 'e10adc3949ba59abbe56e057f20f883e', 1, '2018-09-05 06:35:46', '2018-09-05 06:35:56');
 
 --
 -- Indexes for dumped tables
